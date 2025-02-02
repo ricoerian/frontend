@@ -3,12 +3,10 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ProtectedRoute from "./middleware/ProtectedRoute";
 import Dashboard from "./pages/Dashboard";
-import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
     <Router>
-      <Analytics />
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
