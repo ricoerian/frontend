@@ -1,11 +1,10 @@
 import { useEffect } from "react"
-import { useNavigate } from "react-router-dom"
 
-const OauthCallback = () =>{
-    const navigate = useNavigate()
+const OauthCallback = () => {
     useEffect(() => {
-        navigate('https://auth-golang-production-8253.up.railway.app/oauth/google/callback')
-    }, [navigate]);
+        window.location.href = 'https://auth-golang-production-8253.up.railway.app/oauth/google/callback';
+    }, []);
+    
     return <p>Callback...</p>
 }
 
