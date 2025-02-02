@@ -3,8 +3,9 @@
 This project provides a modern authentication system built with a **React** frontend and a **Golang** backend, offering a seamless login experience. It leverages **TypeScript**, **Vite**, and **TailwindCSS** for the frontend, ensuring a smooth and visually appealing user interface. 🌐
 
 ## Features ✨
-- User login and authentication flow 🔑
-- Secure JWT-based authentication 🔒
+- **Login with Google OAuth 2.0** for a fast and secure authentication experience 🧑‍💻🔑
+- User login and authentication flow 🔒
+- Secure JWT-based authentication 🔐
 - Responsive UI with React and TailwindCSS 📱
 - Optimized with Vite for fast development ⚡
 
